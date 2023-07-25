@@ -1,0 +1,23 @@
+body{
+	height: 100%;
+}
+.cont{
+	display: table;
+	height: 100%;
+}
+.ad-row{
+	display: table-row;
+     height:100%;
+}
+.ad-col{
+	display: table-cell;
+	background: #1CA361;
+    height:100%;
+    float: none;
+
+}
+.ad-cols{
+	display: table-cell;
+	height:100%;
+	float: none;
+}

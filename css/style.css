@@ -1,0 +1,697 @@
+.headersection{
+	padding: 20px;
+}
+.l-g{
+	
+}
+.lo-gin a {
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	font-family: initial;
+	float: right;
+	margin-top: 31px;
+	background: #1CA361;
+	padding: 3px 17px;
+}
+.lo-gin a:hover{
+	color: #fff;
+}
+/*logo*/
+.lo-go{
+
+}
+.lo-go a{
+	text-decoration: none;
+}
+.lo-go a img {
+	margin-top: 8px;
+	margin-left: 25px;
+	margin-bottom: 8px;
+}
+.h-tag{
+
+}
+.h-tag a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+.h-tag h4 {
+	color: #000;
+	text-shadow: 2px 1px #1CA361;
+	padding-top: 20px;
+}
+
+/*serch bar*/
+#search_form {
+	width: 55%;
+	float: right;
+	margin-top: 25px;
+	margin-right: 55px;
+}
+.form-control:focus {
+	color: #000;
+	background-color: transparent;
+	border-color:#1CA361;
+	outline: 0;
+	box-shadow:0 0 0 .2rem transparent;
+}
+.form-control{
+	border: 1px solid #1CA361;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.btn-outline-primary:hover {
+	color: #fff;
+	background-color: #1CA361;
+	border-color: #1CA361;
+}
+.btn-outline-primary {
+	color: #fff;
+	background-color: #1CA361;
+	background-image: none;
+	border-color: #1CA361;
+	border-top-left-radius: 0px ! important;
+	border-bottom-left-radius: 0px ! important;
+
+
+}
+.btn-outline-primary:focus {
+		color: #fff;
+    border-color: #1CA361;
+    box-shadow: 0 0 0 .2rem transparent;
+}
+.btn-outline-primary:not([disabled]):not(.disabled):active{
+	color: #1CA361;
+    background-color: #fff;
+    border-color: #1CA361;
+    box-shadow: 0 0 0 .2rem transparent;
+}
+/*navbar*/
+.na-vs{
+	background: #1CA361;
+	border: 1px solid #1CA361;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	background: transparent;
+	color: #000;
+} 
+.navbar-light .navbar-nav .nav-link:hover {
+	
+	background: #fff;
+	color:#1CA361;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-size: 14px;
+	padding: 10px 10px;
+	
+}
+.navbar{
+	padding: 0px;
+}
+.bg-light{
+	background-color: #1CA361 !important;
+	
+}
+.navbar-light .navbar-nav .active > .nav-link{
+	color: #000;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover{
+	color: #1CA361;
+}
+.navbar-light .navbar-toggler {
+	color: #000;
+	border-color: #000;
+}
+.navbar-toggler{
+	background: #fff;
+}
+button:focus{
+	outline: 0px dotted;
+}
+.dropdown-menu{
+	min-width: 14rem;
+}
+/*drop down manu*/
+.dropdown-item:focus{
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+}
+.dropdown-item:hover {
+	color: #1CA361;
+	text-decoration: none;
+	background-color: #fff;
+}
+.dropdown-item{
+	background: #1CA361;
+	color: #000;
+	font-size: 14px;
+	padding: 5px 39px;
+}
+
+
+/*nav sab manu*/
+.dropdown-menu{
+	padding: 0;
+}
+
+  .dropdown-submenu{
+    position: relative;
+}
+.dropdown-submenu a::after{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 3px;
+    top: 40%;
+}
+.dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: -30px;
+    left: 100%;
+}
+@media (max-width: 992px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu{
+        width: auto;
+    }
+}
+
+/*End navigation */
+
+/*container 1st part*/
+.p-orjoton {
+	background: #EDEDF0;
+	padding-bottom: 35px;
+	margin: 20px 20px;
+}
+.p-orjoton h4 {
+	font-size: 28px;
+	color: #000;
+	margin-left: 7px;
+	padding: 4px;
+	margin-top: 10px;
+}
+.pi-orjoton{
+
+}
+.pi-orjoton img {
+	width: 118%;
+
+}
+.pt-orjoton{
+	
+}
+.p-orjoton li{
+	list-style: none;
+	padding: 2px;
+}
+.p-orjoton li a {
+	font-size: 12px;
+	color: #000;
+}
+.p-orjoton li a:hover{
+	color: #0056b3;
+}
+/*contant 2nd part*/
+.snd-part{
+
+}
+.notis-bord{
+
+}
+.notis-bord h4 {
+	font-size: 22px;
+	color: #683091;
+	padding: 5px;
+	margin-top: 20px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 13px;
+}
+.notis-bord p{
+	margin: 0;
+	padding: 5px;
+}
+.notis-bord p a{
+	font-size: 12px;
+    color:#2BA5F6;;
+    font-weight: bold;
+}
+.notis-bord p a:hover{
+	color: #0056b3;
+}
+.column-block{
+
+}
+.column-block a{
+	
+}
+.column-block a img{
+	margin-top: 20px;
+}
+
+
+.right-block h5.ces_title {
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: url("../img/esaba.png");
+            background-origin: padding-box;
+            background-position-x: 0px;
+            background-position-y: 0px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 30px;
+            padding-left: 35px !important;
+          border: 1px solid #ccc;
+          color: #683091;
+          font-weight: bold;
+          padding: 14px;
+          text-align: center;
+}
+
+.central-eservices ul li{
+	list-style: none;
+}
+.central-eservices ul li a{
+	font-size: 15px;
+
+}
+
+.central-eservices ul li a i {
+	font-size: 25px;
+	margin-right: 10px;
+}
+.i-mgs{
+
+}
+.i-mgs img{
+	width: 100%;
+	height: 55px;
+	margin-bottom: 20px;
+}
+.i-mgsl h4 {
+	background: url("../img/jala-esaba.jpg");
+	margin-bottom: 20px;
+	font-size: 18px;
+	padding: 8px 0px;
+	color: #7F3890;
+}
+.i-mgsg h4{
+	background: url("../img/othre-esaba.png");
+	margin-bottom: 20px;
+	font-size: 18px;
+	padding: 8px 0px;
+	color: #7F3890;
+}
+.i-mgsg{
+	padding-bottom: 15px;
+}
+.i-mgsg p{
+margin: 0;
+padding: 1px;
+}
+.i-mgsg p a{
+	font-size: 14px;
+}
+.i-mgsg p a i{
+		font-size: 25px;
+	margin-right: 10px;
+}
+.i-mgsb h4{
+	background: url("../img/motamot.png");
+	margin-bottom: 20px;
+	font-size: 18px;
+	padding: 8px 0px;
+	color: #7F3890;
+}
+.i-mgsa h4{
+	background: url("../img/jogajog.png");
+	margin-bottom: 20px;
+	font-size: 18px;
+	padding: 8px 0px;
+	color: #7F3890;
+}
+
+
+
+/* slider */
+.slider{
+
+}
+/*footer*/
+.footer{
+	background: #363B3E;
+}
+.fo-t{
+ padding: 30px;
+}
+.fo-t h5 {
+	color: #fff;
+	font-size: 18px;
+	border-bottom: 1px solid #000;
+	margin: 0px 10px;
+	padding-bottom: 11px;
+	margin-bottom: 9px;
+}
+.fo-t p {
+	margin: 0;
+	padding: 4px;
+}
+.fo-t p a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 20px;
+	display: block;
+    padding: 1px;
+}
+.fo-t p a:hover{
+
+	color: #1CA361;
+}
+.fo-s{
+ padding: 30px;
+}
+.fo-s h5 {
+	color: #fff;
+	font-size: 18px;
+	border-bottom: 1px solid #000;
+	margin: 0px 10px;
+	padding-bottom: 11px;
+	margin-bottom: 9px;
+}
+.fo-s p {
+	margin: 0;
+	padding: 4px;
+}
+.fo-s p a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 20px;
+	display: block;
+	padding: 2px;
+}
+.fo-s p a:hover{
+
+	color: #1CA361;
+}
+.fo-h{
+ padding: 30px;
+}
+.fo-h h5 {
+	color: #fff;
+	font-size: 18px;
+	border-bottom: 1px solid #000;
+	margin: 0px 10px;
+	padding-bottom: 11px;
+	margin-bottom: 9px;
+}
+.fo-h p {
+	margin: 0;
+	padding: 4px;
+}
+.fo-h p a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 20px;
+	display: block;
+    padding: 1px;
+}
+.fo-h p a:hover{
+
+	color: #1CA361;
+}
+.i-con{
+	padding-bottom: 20px;
+}
+.i-con a{
+	text-decoration: none;
+	padding: 0px 4px;
+}
+.i-con a i{
+   color: #fff;
+}
+
+.con-tat{
+	padding-top: 20px;
+    padding-bottom: 25px;
+}
+.con-1{
+
+}
+.con-1 h4{
+	text-align: center;
+	color: #fff;
+	background: #3C5B9B;
+	font-size: 18px;
+	padding: 7px 0px;
+	cursor: pointer;
+}
+.con-1 h4:hover{
+	background: #fff;
+	color: #3C5B9B;
+	
+}
+.con-2{
+
+}
+.con-2 h4{
+	text-align: center;
+	color: #fff;
+	background: #1CA361;
+	font-size: 18px;
+	padding: 7px 0px;
+	cursor: pointer;
+}
+.con-2 h4:hover{
+	background: #fff;
+	color: #1CA361;
+}
+.con-3{
+
+}
+.con-3 a{
+	text-decoration: none;
+	padding: 0px 7px;
+}
+.con-3 a img{
+	width: 12%;
+}
+.con-4 a {
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.con-4 img {
+	background: #fff;
+	height: 60%;
+	width: 62%;
+}
+
+/*desian*/
+.desian {
+	background: #1CA361;
+	padding: 5px;
+}
+.desian h5 {
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+
+/*incex responsive*/
+@media (min-width: 240px) and (max-width: 450px){
+
+
+.lo-go a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+.h-tag a{
+	
+	text-align: center;
+	display: block;
+}
+.h-tag h4{
+	text-align: center;
+    font-size: 18px;
+}
+#search_form {
+	width: 113%;
+	float: right;
+	margin-top: 25px;
+	margin-right: 0px;
+}
+.lo-gin a{
+	
+}
+.dropdown-item {
+	background: #1CA361;
+	color: #000;
+	font-size: 11px;
+	padding: 5px 13px;
+}
+.dropdown-menu{
+	min-width: 9rem;
+}
+.fo-t h5{
+	font-size: 12px;
+}
+.fo-t p a{
+	font-size: 11px;
+}
+.fo-s h5{
+	font-size: 12px;
+}
+.fo-s p a{
+	font-size: 11px;
+}
+.fo-h h5{
+	font-size: 12px;
+}
+.fo-h p a{
+	font-size: 11px;
+}
+.con-1 h4{
+	font-size: 12px;
+	padding: 8px 0px;
+	margin: 0px 55px;
+}
+.con-2{
+	padding: 0px 70px;
+}
+.con-2 h4{
+	font-size: 12px;
+	padding: 8px 0px;
+	margin-top: 20px;
+}
+.con-3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+.con-4 img{
+	width: 45%;
+    padding: 0px 12px;
+}
+.pi-orjoton img {
+	width: 67%;
+}
+}
+
+@media (min-width: 450px) and (max-width: 768px){
+	.pi-orjoton img {
+	width: 70%;
+}
+.lo-go a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+.dropdown-menu{
+	min-width: 14rem;
+}
+
+.con-1 h4{
+	margin: 0px 56px;
+    margin-bottom: 20px;
+}
+.con-3 {
+	margin-top: 20px;
+	margin-left: 122px;
+	margin-bottom: 25px;
+}
+.con-4 img {
+	background: #fff;
+	width: 34%;
+	padding: 0 20px;
+}
+.con-2{
+	padding: 0px 70px;
+}
+
+}
+@media (min-width: 788px) and (max-width: 1024px){
+.pi-orjoton img {
+	width: 140%;
+}
+}
+@media (min-width: 1024px) and (max-width: 1150px){
+.pi-orjoton img {
+	width: 130%;
+}
+}
+
+/*divison-porichiti*/
+.lt{
+}
+.lt h4 {
+	font-size: 25px;
+	padding-bottom: 10px;
+	color: #000;
+	margin-top: 50px;
+}
+.lt h5{
+	font-size: 15px;
+   line-height: 1.8;
+   color: #000;
+}
+.lt h6{
+	font-size: 15px;
+	line-height: 1.8;
+	color: #000;
+}
+.n-am-mymanshing{
+   margin-top: 50px;
+}
+.n-am-mymanshing h4{
+    font-size: 28px;
+	color: #000;
+}
+.n-am-mymanshing p{
+	font-size: 15px;
+	line-height: 1.8;
+	color: #000;
+}
+.ltr{
+	text-align: left;
+}
+.ltr img{
+	width: 100%;
+}
+.ltr p {
+	text-align: left;
+	font-size: 14px;
+	margin-top: 30px;
+	line-height: 1.8;
+	color: #000;
+}
+
+/*login form */
+
+/*joga-jog --- cont form */
+
+.red{
+    color:red;
+    }
+.form-area {
+	background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 56px 0px 60px;
+	border: 1px solid GREY;
+}
